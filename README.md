@@ -302,3 +302,4 @@ You can consider this as a polyfill to be used while the MDL do not include that
 # License 
 
 [MIT License](https://github.com/ahlechandre/mdl-stepper/blob/gh-pages/LICENSE) © 2016 Alexandre Thebaldi
+# StepperTCC
