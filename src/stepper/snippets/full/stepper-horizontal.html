@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>Senac | Enade Simulado</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://code.getmdl.io/1.1.3/material.indigo-pink.min.css">
     <link rel="stylesheet" href="../../../../stepper.css">
@@ -31,8 +31,11 @@
 
 <section class="mdl-stepper-demo">
 
-    <center><h2>Simulado</h2></center>
-
+    <h2 style="margin-left: 1%"><span class="senac">Senac</span> | <span class="enade">Enade</span> <span class="simulado">Simulado</span></h2><!-- Colored raised button -->
+    <div><button style="margin-left: 80%" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
+        Entregar simulado <i class="material-icons">check</i>
+    </button>
+    <i style="margin-left: 50%" class="material-icons md-48">alarm</i></div>
     <div class="mdl-grid">
         <div class="mdl-cell mdl-cell--12-col">
             <!-- markup -->
@@ -45,17 +48,16 @@
             </span>
             </span>
                     <div class="mdl-step__content">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel pretium diam, ac euismod urna.
-                            Etiam sit amet vestibulum urna. Aenean vel ex eu quam tristique fermentum.
-                            Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-                            Etiam pretium lacus malesuada, facilisis ligula sit amet, faucibus ipsum. Phasellus accumsan risus eget mauris vulputate tincidunt. Proin id mi leo. Donec placerat vulputate posuere.
-                            Pellentesque venenatis sed magna id rutrum. Vestibulum vitae ultricies enim.</p>
-
-                        <p>A) <input type="radio"/> Etiam id eleifend sapien, et eleifend odio.  </p>
-                        <p>B) <input type="radio"/> Vestibulum leo est, pharetra id malesuada ac, ultrices convallis purus. </p>
-                        <p>C) <input type="radio"/> Etiam id eleifend sapien, et eleifend odio, pharetra id malesuada ac, ultrices convallis purus. </p>
-                        <p>D) <input type="radio"/> Pharetra id malesuada ac, ultrices convallis purus. </p>
-                        <p>E) <input type="radio"/> Id malesuada ac, ultrices convallis purus. </p>
+                        <br>
+                        <p style="font-size: 18px"><span style="margin-left:1%">Assinale </span>a alternativa que
+                            apresenta a consulta SQL para selecionar apenas o nome de todos os clientes que tenham um
+                            nome que TERMINA com a letra 'A'. </p>
+                        <br>
+                        <p class="margin">A) <input name="question" type="radio"/> SELECT * FROM CLIENTE WHERE NOME LIKE '%A%'.</p>
+                        <p class="margin">B) <input name="question" type="radio"/> SELECT NOME FROM CLIENTE WHERE NOME END 'A'.</p>
+                        <p class="margin">C) <input name="question" type="radio"/> SELECT * FROM CLIENTE WHERE NOME LIKE '%A'.</p>
+                        <p class="margin">D) <input name="question" type="radio"/> SELECT NOME FROM CLIENTE WHERE NOME LIKE '%A'.</p>
+                        <p class="margin">E) <input name="question" type="radio"/> SELECT NOME FROM CLIENTE WHERE NOME LIKE 'A'.</p>
 
                     </div>
                     <div class="mdl-step__actions">
@@ -80,15 +82,24 @@
             </span>
                     <div class="mdl-step__content">
                         <form action="#">
-                            <div class="mdl-textfield mdl-js-textfield">
-                                <input autocomplete="off" class="mdl-textfield__input" type="text"
-                                       id="stepper-transient-message">
-                                <label class="mdl-textfield__label" for="stepper-transient-message">Transient message
-                                    for current step</label>
-                                <span class="mdl-textfield__error">Invalid input</span>
-                            </div>
+                            <br>
+                            <p style="font-size: 18px"><span style="margin-left:1%">A </span>seguinte Figura ilustra a
+                                Memória Principal de um computador.
+                                Nela são destacadas áreas alocadas ao Sistema Operacional e a cinco Programas, bem como
+                                áreas livres, cujos tamanhos são indicados na Figura.
+                                Utilizando-se a Estratégia de Alocação BEST-FIT, onde o Programa C de 14 KB será
+                                carregado?</p>
+                            <center><img
+                                    src="https://s3.amazonaws.com/qcon-assets-production/images/provas/48585/839ad9c2407ba050ab95.png"/>
+                            </center>
+                            <br>
+                            <p class="margin">A) <input name="question" type="radio"/> Na área livre de 10KB.</p>
+                            <p class="margin">B) <input name="question" type="radio"/> Na área livre de 20 KB.</p>
+                            <p class="margin">C) <input name="question" type="radio"/> Na área livre de 15 KB. </p>
+                            <p class="margin">D) <input name="question" type="radio"/> Na área livre de 30 KB. </p>
+                            <p class="margin">E) <input name="question" type="radio"/> SELECT NOME FROM CLIENTE WHERE NOME LIKE 'A'.
+                            </p>
                         </form>
-
                     </div>
                     <div class="mdl-step__actions">
                         <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--colored"
@@ -109,7 +120,21 @@
             <span class="mdl-step__title-text">Questão 3</span>
             </span>
             </span>
-                    <div class="mdl-step__content"></div>
+                    <div class="mdl-step__content">
+                        <br>
+                        <p style="font-size: 18px"><span style="margin-left:1%">Sistemas </span> operacionais UNIX e
+                            baseados em UNIX fornecem uma implementação de processos tomada emprestada por muitos outros
+                            sistemas operacionais.
+                            Cada processo deve armazenar, dados e pilha na memória durante a execução.
+                            Processos UNIX interagem com o sistema operacional via chamadas ao sistema. Fork é uma
+                            dessas chamadas ao sistema. Sobre o Fork, assinale a alternativa correta.</p>
+                        <br>
+                        <p class="margin">A) <input name="question" type="radio"/> Modifica a prioridade de escalonamento de um processo.  </p>
+                        <p class="margin">B) <input name="question" type="radio"/> Gera um processo‐filho e aloca àquele processo uma cópia dos recursos de seu pai.</p>
+                        <p class="margin">C) <input name="question" type="radio"/> Carrega as instruções e dados de um processo no seu espaço de endereço em um arquivo. </p>
+                        <p class="margin">D) <input name="question" type="radio"/> Permite que um processo especifique um tratador de sinal para um tipo de sinal particular.</p>
+                        <p class="margin">E) <input name="question" type="radio"/> Faz com que o processo que está chamando fique bloqueado até que seu processo‐filho termine.</p>
+                    </div>
                     <div class="mdl-step__actions">
                         <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--colored"
                                 data-stepper-next>
