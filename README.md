@@ -1,4 +1,4 @@
 # Layout de questões  TCC
 
 
-![layoutQuestion](https://github.com/rudiss/StepperTCC/blob/master/src/img/layout1.png)
+![layoutQuestion](https://github.com/rudiss/Layout_TCC/blob/master/img/layout1.png)
